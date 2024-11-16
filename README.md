@@ -10,6 +10,8 @@ For getting data we should have a key for Cyanide API, find needed competition I
 
 Code extracts data chunk by chunk, if something breaks - saves extracted data to temporary file and can be restarted later and continue from this point (no need to start extracting from the beginning).
 
+After finishing, code deletes column with API-key and saves data to csv-file.
+
 ## Results
 If something breaks mid-process, we have 'temporary.csv' file with partial data. After restarting code it will continue extracting data from this point.
 
