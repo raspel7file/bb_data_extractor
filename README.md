@@ -16,3 +16,5 @@ After finishing, code deletes column with API-key and saves data to csv-file.
 If something breaks mid-process, we have 'temporary.csv' file with partial data. After restarting code it will continue extracting data from this point.
 
 After completing data fetching we have csv-file '{competition_name}_{platform}_raw_data.csv' with all raw matches data from given competition.
+
+Also, created file '{competition_name}_{platform}_processed_data.csv' with more convenient form to work with.
